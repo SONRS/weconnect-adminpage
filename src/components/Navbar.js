@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React from 'react'
+import './css/Navbar.css'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
@@ -6,9 +7,8 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-            <Link to="/" className="navbar-logo">
-                WeConnect
-            </Link>
+            <img className='nav-logo' src='/images/weconnectlogo.png'/>
+            
         </div>
 
       </nav>
