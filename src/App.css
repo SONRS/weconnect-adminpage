@@ -1,3 +1,21 @@
-h1, p, h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+:root{
+    position: fixed;
+    min-height: 620px;
+}
+h1{
+    padding-left: 5%;
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2{
+    padding-left: 5%;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+p{
+    margin: 0;
 }

@@ -1,5 +1,5 @@
 :root{
-    --primary: #b21022;
+    --primary: ;
 }
 
 .btn{
@@ -10,8 +10,8 @@
     cursor: pointer;
 }
 
-.btn--primary{
-    background-color: var(--primary);
+.btn-primary{
+    background-color: #b21022;
     color: white;
     border: 1px solid var(--primary);
 
@@ -30,7 +30,7 @@
     font-size: 20px;
 }
 
-.btn--large{
+.btn-lg{
     padding: 12px 26px;
     font-size: 20px;
 }

@@ -1,0 +1,41 @@
+.input-areas{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+    padding-top: 10px;
+}
+
+.email-input{
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+    margin-bottom: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    color: rgb(44, 44, 44);
+}
+
+.password-input{
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+    margin-bottom: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    color: rgb(44, 44, 44);
+}
+.code-input{
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: rgb(44, 44, 44);
+}
