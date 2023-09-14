@@ -1,18 +1,28 @@
-.navbar-container{
-    background-color:  #b21022;
-    display: flex;
+.navbar{
+    background-color: #b21022;
     position: fixed;
-    align-items: center;
-    justify-content: space-between;
-    flex: 1;
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
-
+    height: 12%;
 }
-.nav-logo{
-    width: 30%;
-    margin: 0;
-    padding-top: 40px;
+.nav-logo img{
+    width: 35%;
+    /* height: 140px; */
+    padding-top: 15px;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logouticon{
+    width: 32px;
+    padding-left: 5px;
 }

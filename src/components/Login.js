@@ -55,6 +55,7 @@ class Login extends React.Component{
                         </div>
                         
                         <div className='login-btn'>
+                        {/* <button className='btn btn-primary'>LOGIN</button> */}
                             <Link to={{pathname: `/user/${this.state.username}`, state:{username: this.props.username}}}>
                             <button className='btn btn-primary'>LOGIN</button>
                             </Link>

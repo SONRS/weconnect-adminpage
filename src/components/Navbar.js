@@ -5,13 +5,22 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <>
-      <nav className="navbar">
-        <div className="navbar-container">
-            <img className='nav-logo' src='/images/weconnectlogo.png'/>
-            
+      <div className='navbar'>
+        <div className='nav-content'>
+          <div className='nav-logo'>
+            <img src = '/images/weconnectlogo.png'/>
+          </div>
+          <Link to={{pathname: '/'}} className='no-underline'>
+            <div className='logout'>
+              <h2>Logout</h2>
+              <img className='logouticon'
+              src='/icons/box-arrow-right.svg'></img>
+              </div>
+            </Link>
+          
+          
         </div>
-
-      </nav>
+      </div>
     </>
   )
 }

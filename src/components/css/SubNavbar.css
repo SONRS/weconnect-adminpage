@@ -1,0 +1,28 @@
+.sub-navbar{
+    z-index: 1;
+    background-color: rgb(198, 194, 194);
+    position: fixed;
+    top: 12%;
+    left: 0;
+    right: 0;
+    height: 7%;
+}
+.subnav-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.stats{
+    display: flex;
+    padding-left: 200px;
+}
+.user{
+    display: flex;
+    padding-right: 200px;
+}
+.questions{
+    display: flex;
+}
