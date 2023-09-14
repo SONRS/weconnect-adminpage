@@ -35,9 +35,10 @@ class Login extends React.Component{
                         </div>
                         <div className='field'>
                             <label>Password: </label>
+                                
                                 <input type="password"
                                     name="password"
-                                    placeholder='Enter Password'
+                                    placeholder='Password'
                                     className='password-input'
                                     value = {this.state.password}
                                     onChange={(e) => this.setState({password: e.target.value})}
@@ -47,7 +48,7 @@ class Login extends React.Component{
                             <label>Code: </label>
                             <input type="INTEGER" 
                                 name="org-code"
-                                placeholder='Enter Organisation Code'
+                                placeholder='Organisation Code'
                                 className='code-input'
                                 value = {this.state.code}
                                 onChange={(e) => this.setState({code: e.target.value})}

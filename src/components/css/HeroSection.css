@@ -1,3 +1,6 @@
+.loginbox{
+   position: fixed;
+}
 .background{
     object-fit: cover;
     width: 100%;
@@ -10,7 +13,7 @@
 }
 
 /*MEDIA QUERIES*/
-@media (max-width: 310px){
+@media (max-width: 378px){
     .hero-container{
         display: flex;
         flex-direction: column;
@@ -24,7 +27,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        height: 50%;
+        height: 55%;
         background-color: rgb(255, 255, 255);
         margin: 0;
     }
@@ -42,7 +45,7 @@
     }
     .left-bottom{
         font-size: 0.75rem;
-        padding-top: 30%;
+        padding-top: 10%;
     }
     .text{
         display: flex;
@@ -56,8 +59,11 @@
     .groupimage{
         display: none;
     }
+    .field{
+        font-size: 0.25rem;
+    }
 }
-@media (min-width: 311px) and (max-width: 768px){
+@media (min-width: 378px) and (max-width: 409px){
     .hero-container{
         display: flex;
         flex-direction: column;
@@ -95,7 +101,54 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 0;
+    }
+    .groupimage{
+        display: none;
+    }
+}
+@media (min-width: 409px) and (max-width: 767px){
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .loginbox{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        align-items:center;
+        justify-content: center;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+    }
+    .mainlogo{
+        width: 70%;
+    }
+    h1{
+        font-size: 1.75rem;
+    }
+    .welcome-body{
+        font-size: 0.75rem;
+    }
+    .joint-logo{
+        width: 30%;
+    }
+    .left-bottom{
+        font-size: 0.75rem;
+        padding-top: 5%;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         font-size: 1.5rem;
+        font-weight: bold;
         margin: 0;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -104,7 +157,7 @@
         display: none;
     }
 }
-@media (min-width: 768px) and (max-width: 1100px) { 
+@media (min-width: 768px) and (max-width: 950px) { 
     .hero-container{
         display: flex;
         flex-direction: column;   
@@ -116,24 +169,24 @@
         left: 0;
         right: 0;
         bottom: 0;
-        height: 40%;
+        height: 45%;
         background-color: rgb(255, 255, 255);
         margin: 0;
     }
     .mainlogo{
-        width: 100%;
+        width: 50%;
     }
     h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .welcome-body{
-        font-size: 1.5rem;
+        font-size: 0.75rem;
     }
     .joint-logo{
-        width: 40%;
+        width: 30%;
     }
     .left-bottom{
-        padding-top: 7%;
+        padding-top: 5%;
     }
     .groupimage{
         display: none;
@@ -142,14 +195,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size:3rem;
+        font-size:1.5rem;
         font-weight:bold;
         margin: 0;
-        padding-bottom: 40px;
-        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 }
-@media (min-width: 1100px){
+@media (min-width: 950px){
     .hero-container{
         display: flex;
         flex-direction: row;  
@@ -204,7 +257,7 @@
 
 .mainlogo{
     margin: 0;
-    padding-top: 8%;
+    padding-top: 5%;
 }
 .welcome-body{
     padding-left: 5%;

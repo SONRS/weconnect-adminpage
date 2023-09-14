@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10%;
     padding-top: 10px;
 }
 .field{
@@ -40,4 +39,40 @@
     margin-bottom: 30px;
     font-size: 18px;
     color: rgb(44, 44, 44);
+}
+
+@media (max-width: 378px){
+    .field{
+        font-size: 1rem;
+    }
+    .email-input{
+        padding: 8px 10px;
+        border-radius: 4px;
+        margin-right: 5px;
+        outline: none;
+        margin-bottom: 10%;
+        font-size: 15px;
+        border: 1px solid black;
+        color: rgb(44, 44, 44);
+    }
+    .password-input{
+        padding: 8px 10px;
+        border-radius: 4px;
+        margin-right: 10px;
+        outline: none;
+        margin-bottom: 10%;
+        font-size: 15px;
+        border: 1px solid black;
+        color: rgb(44, 44, 44);
+    }
+    .code-input{
+        padding: 8px 10px;
+        border-radius: 4px;
+        margin-right: 10px;
+        outline: none;
+        border: 1px solid black;
+        margin-bottom: 10%;
+        font-size: 15px;
+        color: rgb(44, 44, 44);
+    }
 }
